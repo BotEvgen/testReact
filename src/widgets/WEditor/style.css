@@ -1,0 +1,190 @@
+.RichEditor-root {
+    position: relative;
+    background: #fff;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    height: 100%;
+}
+
+.RichEditor-editor {
+    border-top: 1px solid #ddd;
+    cursor: text;
+    font-size: 16px;
+    height: calc(100% - 97px);
+    overflow: auto;
+    padding: 15px;
+}
+
+
+.RichEditor-editor .public-DraftEditor-content {
+    min-height: 100px;
+}
+
+.RichEditor-hidePlaceholder .public-DraftEditorPlaceholder-root {
+    display: none;
+}
+
+.RichEditor-editor .RichEditor-blockquote {
+    border-left: 5px solid #eee;
+    color: #666;
+    font-style: italic;
+    margin: 16px 0;
+    padding: 10px 20px;
+}
+
+.RichEditor-editor .public-DraftStyleDefault-pre {
+    background-color: rgba(0, 0, 0, 0.05);
+    font-size: 16px;
+    padding: 20px;
+}
+
+.RichEditor-controls {
+    user-select: none;
+}
+
+.RichEditor-styleButton {
+    display: inline-block;
+    color: #999;
+    cursor: pointer;
+    margin-right: 16px;
+    padding: 2px 0;
+}
+
+.RichEditor-styleButton svg rect {
+    fill: #999;
+}
+
+.RichEditor-styleButton:hover svg rect {
+    fill: #333;
+}
+
+.RichEditor-activeButton svg rect {
+    fill: #5890ff
+}
+
+
+.RichEditor-styleButton-disabled {
+    opacity: 0.3;
+    pointer-events: none;
+    cursor: not-allowed;
+}
+
+.RichEditor-activeButton {
+    color: #5890ff;
+}
+
+/*Управление состоянием(взято с супердеска) */
+
+[class^="RichEditor-icon"] {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    font-size: 16px;
+    font-family: 'sd_icons', sans-serif;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    color: inherit;
+}
+
+[class^="RichEditor-icon"]:hover {
+    color: #333
+}
+
+
+/*Блочные элементы*/
+.icon-heading-2:before {
+    content: '\E680';
+}
+
+.icon-heading-3:before {
+    content: '\E681';
+}
+
+.icon-heading-4:before {
+    content: '\E682';
+}
+
+.icon-heading-5:before {
+    content: '\E683';
+}
+
+.icon-heading-6:before {
+    content: '\E684';
+}
+
+.icon-blockquote:before {
+    content: '\E685';
+}
+
+.icon-ul:before {
+    content: '\E65D';
+}
+
+.icon-ol:before {
+    content: '\E67E';
+}
+
+.icon-codeBlock:before {
+    content: '\E694';
+}
+
+/*Строчные элементы*/
+
+.icon-bold:before {
+    content: '\E655';
+}
+
+.icon-italic:before {
+    content: '\E656';
+}
+
+.icon-underline:before {
+    content: '\E657';
+}
+
+
+/*Кастомные элементы*/
+
+.icon-link:before {
+    content: '\E63C';
+}
+
+.icon-image:before {
+    content: '\E62A';
+}
+
+.icon-embed:before {
+    content: '\E674'
+}
+
+
+/*Стилизация компонентов внутри визивига*/
+
+
+.RichEditor-h2 {
+    font-size: 30px;
+    line-height: 140%;
+}
+
+.RichEditor-h3 {
+    font-size: 24px;
+    line-height: 140%;
+}
+
+.RichEditor-p {
+    font-size: 18px;
+    line-height: 146%;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.RichEditor-atomic {
+    margin-top: 24px;
+}
+
+
+

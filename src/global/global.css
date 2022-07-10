@@ -1,0 +1,46 @@
+.swiper-button{
+    z-index: 1;
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    transform: translateY(-50%);
+    top: 43%;
+    background-color:#ffffff;
+    border-radius: 100px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08)
+}
+
+.swiper-button-next{
+    right: 0;
+}
+
+.swiper-button-prev{
+    left: 0;
+}
+
+.swiper-button:after{
+    content: '';
+    display: none;
+}
+
+.swiper-button-disabled{
+    display: none;
+}
+
+.arrow{
+    display: inline-block;
+    padding: 6px;
+    border: solid #007f3e;
+    border-width: 0 5px 5px 0;
+    position: relative;
+}
+
+.arrow-left{
+    transform: rotate(135deg);
+    right: -3px;
+}
+
+.arrow-right{
+    transform: rotate(-45deg);
+    left: -3px;
+}
