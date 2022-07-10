@@ -74,15 +74,6 @@ const App = () => {
                <Route {...routes.redirectToHomeFromInitial.routeProps} />
                <Route {...routes.redirectToHomeFromNotFound.routeProps} />
                <Route {...routes.main.routeProps} />
-               <Route {...routes.articlesLocations.routeProps} />
-               <Route {...routes.authorLocations.routeProps} />
-               <Route {...routes.sluglineLocations.routeProps} />
-               <Route {...routes.tagsLocations.routeProps} />
-               <Route {...routes.categoriesLocations.routeProps} />
-               <Route {...routes.mediaContact.routeProps} />
-               <Route {...routes.metroNewsTransferGradeA.routeProps} />
-               <Route {...routes.metroNewsTransferGradeB.routeProps} />
-               <Route {...routes.metroNewsTransferGradeC.routeProps} />
             </Route>
          </Routes>
       </Router>
