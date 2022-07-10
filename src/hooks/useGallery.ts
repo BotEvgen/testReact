@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 
 import { TWFeatureMediaProps } from '@widgets/WFeatureMedia'
 
-import { TPictureEntity } from '@services/Picture'
 
 type TGalleryReturnEntity = {
    slides: TPictureEntity[] | []

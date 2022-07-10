@@ -1,10 +1,5 @@
 import { useMemo } from 'react'
 
-import {
-   TTransferCustomFilterEntity,
-   TTransferFiltersEntity,
-   TTransferFilterUserState,
-} from '@services/TransferFilter/filter.entity'
 
 import { useQueryManager } from '@hooks/useQueryManager'
 
